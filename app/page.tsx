@@ -97,7 +97,7 @@ export default function Home() {
               Developed comprehensive automated test suite for an e-commerce platform using Selenium, TestNG, and Maven.
             </p>
             <Button variant="outline" className="w-full" asChild>
-              <Link href="https://github.com/b4r47h/e-commerce-test-suite" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/b4r47h/eComT-scripts" target="_blank" rel="noopener noreferrer">
                 View Details
               </Link>
             </Button>
