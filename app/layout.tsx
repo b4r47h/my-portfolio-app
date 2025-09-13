@@ -1,8 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
   title: 'Bharath Krishna',
