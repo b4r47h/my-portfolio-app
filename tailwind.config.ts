@@ -78,10 +78,48 @@ const config: Config = {
             height: '0',
           },
         },
+        'gradient-x': {
+          '0%, 100%': {
+            backgroundPosition: '0% 50%',
+          },
+          '50%': {
+            backgroundPosition: '100% 50%',
+          },
+        },
+        'rgb-pulse': {
+          '0%': {
+            backgroundPosition: '0% 50%',
+            boxShadow: '0 0 20px rgba(255, 0, 0, 0.6)',
+          },
+          '14%': {
+            boxShadow: '0 0 20px rgba(255, 127, 0, 0.6)',
+          },
+          '28%': {
+            boxShadow: '0 0 20px rgba(255, 255, 0, 0.6)',
+          },
+          '42%': {
+            boxShadow: '0 0 20px rgba(0, 255, 0, 0.6)',
+          },
+          '56%': {
+            boxShadow: '0 0 20px rgba(0, 127, 255, 0.6)',
+          },
+          '70%': {
+            boxShadow: '0 0 20px rgba(0, 0, 255, 0.6)',
+          },
+          '84%': {
+            boxShadow: '0 0 20px rgba(139, 0, 255, 0.6)',
+          },
+          '100%': {
+            backgroundPosition: '200% 50%',
+            boxShadow: '0 0 20px rgba(255, 0, 0, 0.6)',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'gradient-x': 'gradient-x 5s ease infinite',
+        'rgb-pulse': 'rgb-pulse 3s linear infinite',
       },
     },
   },
